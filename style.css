@@ -1,0 +1,33 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Cairo',sans-serif}
+body{background:#0a0a0a;color:#fff}
+header{display:flex;justify-content:space-between;align-items:center;padding:15px 5%;background:#111;border-bottom:2px solid #ff1a1a;position:sticky;top:0;z-index:100}
+.logo{font-weight:900;font-size:28px}.logo span{color:#ff1a1a;text-shadow:0 0 10px #ff1a1a}
+nav a{color:#fff;text-decoration:none;margin:0 10px;font-weight:700}
+.yt-btn{background:#ff0000;padding:6px 14px;border-radius:20px;color:#fff!important}
+.hero{text-align:center;padding:50px 5%;background:radial-gradient(circle at center,#1a0000 0%,#0a0a0a 70%)}
+.hero h1{font-size:42px;font-weight:900}.hero h1 span{color:#ff1a1a}
+.search-box{max-width:500px;margin:0 auto 20px}.search-box input{width:100%;padding:14px 20px;border-radius:30px;border:2px solid #333;background:#1a1a1a;color:#fff;outline:none}
+.filters{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:15px}
+.filter{background:#1e1e1e;border:1px solid #333;color:#fff;padding:8px 16px;border-radius:20px;cursor:pointer}
+.filter.active,.filter:hover{background:#ff1a1a;border-color:#ff1a1a}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;padding:30px 5%}
+.card{background:linear-gradient(145deg,#151515,#1f1f1f);border:1px solid #2a2a2a;border-radius:16px;padding:18px;position:relative}
+.badge{position:absolute;top:12px;left:12px;background:#ff1a1a;color:#fff;font-size:10px;padding:3px 8px;border-radius:10px}
+.phone{font-size:18px;font-weight:800;margin-bottom:12px}
+.sens{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:13px}
+.sens div{background:#0f0f0f;padding:6px 8px;border-radius:8px;border:1px solid #222}
+.sens span{color:#ff1a1a;font-weight:800}
+.dpi{margin:12px 0;background:#111;padding:8px;border-radius:8px;text-align:center}
+.copy{width:100%;background:linear-gradient(90deg,#ff1a1a,#ff4400);border:none;color:#fff;padding:10px;border-radius:10px;font-weight:800;cursor:pointer}
+.gems-section{text-align:center;padding:60px 5%;background:linear-gradient(180deg,#0a0a0a,#1a0000)}
+.gems-btn{background:linear-gradient(90deg,#ffcc00,#ff8800);color:#000;font-size:20px;font-weight:900;padding:18px 40px;border:none;border-radius:50px;cursor:pointer;box-shadow:0 0 30px #ffcc0066}
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:999;align-items:center;justify-content:center;padding:15px}
+.modal.show{display:flex}
+.modal-content{background:#151515;border:2px solid #ff1a1a;border-radius:18px;padding:30px;max-width:450px;width:100%;text-align:center;position:relative}
+.close{position:absolute;top:10px;left:15px;font-size:28px;cursor:pointer}
+.btn-red{display:block;width:100%;background:#ff0000;color:#fff;padding:14px;border-radius:12px;text-decoration:none;font-weight:900;margin:15px 0;border:none;cursor:pointer}
+.btn-dark{display:block;width:100%;background:#222;border:1px solid #444;color:#fff;padding:12px;border-radius:12px;font-weight:700;cursor:pointer}
+.progress{height:10px;background:#222;border-radius:10px;margin:15px 0;overflow:hidden}
+#progressBar{height:100%;width:0%;background:linear-gradient(90deg,#ff1a1a,#ff8800);transition:.4s}
+.tasks{list-style:none;text-align:right;margin:15px 0}
+.tasks li{background:#111;padding:10px;border-radius:8px;margin:8px 0;border:1px solid #222}
