@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LMLIH TOP - أقوى حساسيات فري فاير 2026</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="logo">LMLIH <span>TOP</span></div>
+  <nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#sens">الحساسيات</a>
+    <a href="#gems">شحن الجواهر</a>
+    <a href="https://www.youtube.com/@lmlih_top" target="_blank" class="yt-btn">📺 قناتي</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>أقوى حساسيات فري فاير <span>2026</span></h1>
+  <p>لجميع أنواع الهواتف حتى البيسي - هيدشوت 100% مضمون</p>
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="🔍 قلب على نوع هاتفك...">
+  </div>
+  <div class="filters">
+    <button class="filter active" data-filter="all">الكل</button>
+    <button class="filter" data-filter="samsung">سامسونج</button>
+    <button class="filter" data-filter="xiaomi">شاومي</button>
+    <button class="filter" data-filter="iphone">آيفون</button>
+    <button class="filter" data-filter="infinix">إنفينكس</button>
+    <button class="filter" data-filter="tecno">تكنو</button>
+    <button class="filter" data-filter="huawei">هواوي</button>
+    <button class="filter" data-filter="pc">بيسي</button>
+  </div>
+</section>
+
+<section class="grid" id="sens"></section>
+
+<section class="gems-section" id="gems">
+  <h2>💎 شحن جواهر فري فاير</h2>
+  <p>بغيتي جواهر فابور؟ ضغط هنا وتبع الخطوات</p>
+  <button id="openGems" class="gems-btn">🎁 شحن جواهر فري فاير مجانا</button>
+  <div class="extra-btns">
+    <button class="extra">🎯 تحميل أفضل إعدادات HUD</button>
+    <button class="extra">📱 أفضل DPI لكل هاتف</button>
+    <button class="extra">💬 تواصل معنا</button>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 LMLIH TOP - <a href="https://www.youtube.com/@lmlih_top" target="_blank">YouTube.com/@lmlih_top</a></p>
+</footer>
+
+<div id="modal1" class="modal">
+  <div class="modal-content book">
+    <span class="close" data-close="modal1">&times;</span>
+    <div class="book-icon">📖</div>
+    <h2>قبل ما تشحن... خطوة واحدة فقط!</h2>
+    <p>باش تكمل الشحن وتاخد الجواهر، خاصك دير متابعة لقناتي فاليوتيوب</p>
+    <a href="https://www.youtube.com/@lmlih_top" target="_blank" id="ytLink" class="btn-red">📺 تابعني فاليوتيوب الآن</a>
+    <button id="doneFollow" class="btn-dark">✅ تمت المتابعة - إكمال المهام</button>
+    <small>⚠️ إلا متضغطش على زر اليوتيوب وتدير متابعة، الشحن مغاديش يخدم</small>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="close" data-close="modal2">&times;</span>
+    <h2>🔥 كمل المهام باش تاخد الجواهر</h2>
+    <div class="progress"><div id="progressBar"></div></div>
+    <ul class="tasks">
+      <li><label><input type="checkbox" id="t1"> فعل الجرس فالقناة 🔔</label></li>
+      <li><label><input type="checkbox" id="t2"> شاهد آخر فيديو كامل 🎥</label></li>
+      <li><label><input type="checkbox" id="t3"> دير لايك وتعليق 👍</label></li>
+    </ul>
+    <button id="completeTasks" class="btn-red">عرض وإكمال المهام - شحن الآن</button>
+    <p id="finalMsg" style="display:none;color:#0f0;margin-top:15px;font-weight:bold;">✅ ممتاز! سير شوف صندوق الوصف فآخر فيديو فالقناة ديالي فيه رابط الشحن الحقيقي + كود هدية 💎</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
